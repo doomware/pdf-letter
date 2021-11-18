@@ -1,0 +1,108 @@
+#accordion{
+	margin: 15px 25px 25px 25px;
+}
+
+br{
+	background-color: #292929;
+}
+
+.labelName{
+	color: #ff4c29;
+	padding-top: 25px;
+}
+
+.card{
+	border: rgba(0, 0, 0, 5%);
+	background-color: #1a1a1a;
+	margin: 0 !important;
+}
+
+.pLabel{
+	color: #ff4c29;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.pLabel:hover{
+	color: #ff4c29;
+}
+
+#card-header{
+	background-color: #222224;
+	border-radius: 0;
+	text-align: left;
+	padding: 10px 0px 10px 0px;
+}
+
+.card-body{
+	background-color: #222224;
+	padding: 10px 20px 20px 20px;
+}
+
+.divDescription{
+	text-align: left;
+}
+
+.divDescription .pDescription{
+	color: #ff4c29;
+	margin: 0;
+}
+
+.form-outline{
+	margin: 15px 0 10px 0;
+}
+
+#link, #link::placeholder{
+	background-color: #292929;
+	border-color: #ff4c29;
+	color: #ffffff9c
+}
+
+#link::placeholder{
+	color: #ffffff56;
+}
+
+#paper{
+	border-radius: 2%;
+}
+
+.radio{
+	opacity: 0;
+	position: absolute;
+}
+
+.label{
+	margin: 0;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+input[type="radio"]:checked + label{
+	border: #ff4c29 3px solid;
+	border-radius: 3%;
+}
+
+.btn{
+	margin: 1rem;
+	border: none;
+}
+
+.btn-secondary{
+	background-color: #ff4c29;
+	font-weight: 500;
+}
+
+.btn-secondary:hover{
+	background-color: #ff4d298e;
+}
+
+.card-group{
+	padding: 10px 0 0 0;
+	background-color: #222224 !important;
+}
+
+@media(max-width: 600px){
+	#accordion{
+		margin: 15px;
+	}
+}

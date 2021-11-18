@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vscode/
+
+src/img/*_origin.png
+src/img/qrFile.png
+src/Components/return.css
+src/Components/AppReturn.jsx

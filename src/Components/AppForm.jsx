@@ -48,7 +48,7 @@ class AppForm extends Component {
       <Fragment>
         <form name="letter_form" id="letter_link" method="post" className="center" onSubmit={this.sendData}>
           <h3 htmlFor="name" className="labelName">
-            Generador de plantilla
+            Hoja para carta
           </h3>
           <div id="accordion">
             <div className="card">
